@@ -1,0 +1,95 @@
+.logo {
+    color: red !important;
+    font-weight: bolder;
+}
+
+.logo:hover {
+    color: turquoise !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+    background-color: whitesmoke !important;
+    font-weight: bolder;
+}
+
+.bg {
+    padding: 0px !important;
+}
+
+.bg-1 {
+    background-image: url('img/Bg-1.jpg');
+    max-width: 100%;
+    background-size: cover;
+}
+
+.input-form {
+    margin-top: 200px;
+}
+
+.input-widht {
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 50px;
+    max-width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.button-search {
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.button-search:hover {
+    background-color: tomato;
+}
+
+.hr-card {
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+.color-logo {
+    color: red;
+}
+
+.img-about {
+    max-width: 100%;
+}
+
+.color-info {
+    color: white;
+}
+
+
+.button-dark:hover {
+    color: tomato !important;
+    background-color: whitesmoke !important;
+}
+
+.offer {
+    opacity: 50%;
+}
+
+.offer:hover {
+    opacity: 100%;
+}
+
+.color-sub {
+    color: white;
+}
+
+.button-sub {
+    color: red;
+}
+
+.color-footer {
+    color: red;
+}
+
+.color-footer:hover {
+    color: white;
+}

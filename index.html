@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57dc8fd447.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body class="bg bg-1 img-fluid">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand logo" href="index.html"><i class="fas fa-door-open"></i> RestAja</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#room">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <!-- form -->
+        <div class="container">
+            <div class="row text-left input-form">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" style="background-color:white;">
+                    <a class="navbar-brand logo" href="index.html"><i class="fas fa-door-open"></i> RestAja</a>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" style="background-color: red;">
+                    <div class="row py-2">
+                        <div class="col-sm-6">
+                            <label for="checkin"><i class="fa fa-calendar" aria-hidden="true"></i> Check In</label><br>
+                            <input type="date" class="input-widht" name="checkin" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="checkin"><i class="fa fa-calendar" aria-hidden="true"></i> Check Out</label><br>
+                            <input type="date" class="input-widht" name="checkout" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" style="background-color: red;">
+                    <div class="row py-2">
+                        <div class="col-sm-6">
+                            <label for="checkin"><i class="fa fa-male" aria-hidden="true"></i> Adults</label><br>
+                            <input type="number" class="input-widht" name="checkin" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="checkin"><i class="fa fa-child" aria-hidden="true"></i> Kids</label><br>
+                            <input type="number" class="input-widht" name="checkout" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" style="background-color: red;">
+                    <button type="button" class="btn btn-secondary button-search"><i class="fa fa-search mx-2"
+                            aria-hidden="true"></i>
+                        Search Avaliabity</button>
+                </div>
+            </div>
+        </div>
+        <!-- room -->
+        <div class="container-fluid bg">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="background-color: white;">
+                <div class="row ml-3 pt-5">
+                    <h3 id="room">Rooms</h3>
+                </div>
+                <div class="row ml-3">
+                    <h6>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest
+                        well.</h6>
+                </div>
+                <div class="row text-center pt-4">
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <label for="checkin"><i class="fa fa-calendar" aria-hidden="true"></i> Check In</label><br>
+                        <input type="date" class="input-widht" name="checkin" id="" aria-describedby="helpId"
+                            placeholder="">
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <label for="checkin"><i class="fa fa-calendar" aria-hidden="true"></i> Check Out</label><br>
+                        <input type="date" class="input-widht" name="checkout" id="" aria-describedby="helpId"
+                            placeholder="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label for="adult"><i class="fa fa-male" aria-hidden="true"></i> Adults</label><br>
+                                <input type="number" class="input-widht" name="adult" id="" aria-describedby="helpId"
+                                    placeholder="">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="kid"><i class="fa fa-child" aria-hidden="true"></i> Kids</label><br>
+                                <input type="number" class="input-widht" name="kid" id="" aria-describedby="helpId"
+                                    placeholder="">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for=""><i class="fa fa-search mx-2" aria-hidden="true"></i> Search</label><br>
+                                <button type="button" class="btn btn-outline-secondary button-search">
+                                    Search Avaliabity</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5" align="center">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-2">
+                        <div class="card text-left" style="width: 18rem;">
+                            <img src=" img/single.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Single Room</h5>
+                                <h6>From $99</h6>
+                                <hr class="hr-card">
+                                <h6>Single Bed</h6>
+                                <hr class="hr-card">
+                                <h6>15m<sup>2</sup></h6>
+                                <hr class="hr-card">
+                                <a href="#" class="btn btn-danger">Book Now</a>
+                                <div class="text-right">
+                                    <i class="fa fa-bath" aria-hidden="true"></i> <i class="fa fa-phone"
+                                        aria-hidden="true"></i> <i class="fa fa-wifi" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-2">
+                        <div class="card text-left" style="width: 18rem;">
+                            <img src="img/single.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Double Room</h5>
+                                <h6>From $149.5</h6>
+                                <hr class="hr-card">
+                                <h6>Queen Size Bed</h6>
+                                <hr class="hr-card">
+                                <h6>25m<sup>2</sup></h6>
+                                <hr class="hr-card">
+                                <a href="#" class="btn btn-danger">Book Now</a>
+                                <div class="text-right">
+                                    <i class="fa fa-bath" aria-hidden="true"></i> <i class="fa fa-phone"
+                                        aria-hidden="true"></i> <i class="fa fa-wifi" aria-hidden="true"></i> <i
+                                        class="fa fa-television" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-2">
+                        <div class="card text-left" style="width: 18rem;">
+                            <img src="img/single.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Deluxe Room</h5>
+                                <h6>From $149.5</h6>
+                                <hr class="hr-card">
+                                <h6>Queen Size Bed</h6>
+                                <hr class="hr-card">
+                                <h6>25m<sup>2</sup></h6>
+                                <hr class="hr-card">
+                                <a href="#" class="btn btn-danger">Book Now</a>
+                                <div class="text-right">
+                                    <i class="fa fa-bath" aria-hidden="true"></i> <i class="fa fa-phone"
+                                        aria-hidden="true"></i> <i class="fa fa-wifi" aria-hidden="true"></i> <i
+                                        class="fa fa-television" aria-hidden="true"></i> <i
+                                        class="fas fa-wine-glass    "></i> <i class="fa fa-cutlery"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About -->
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 pt-3" style="background-color: white;">
+                    <h3 id="about" class="ml-3">About Us</h3>
+                    <p class="ml-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                        temporibus a, quaerat expedita
+                        ut harum natus consectetur soluta, voluptates dicta eaque adipisci ad, quidem earum ullam
+                        ducimus! Eum dolore soluta fugiat suscipit ab cupiditate, molestias beatae laboriosam maxime,
+                        eius sequi, aspernatur nisi quibusdam. Nihil magnam odit ut amet molestiae voluptas beatae.
+                        Maiores quo consectetur corporis hic officia soluta debitis, repudiandae, alias placeat totam
+                        quidem magni excepturi voluptas veniam necessitatibus blanditiis? Itaque, iste maiores? Laborum
+                        at assumenda quam consectetur praesentium, commodi aspernatur molestias minus neque velit? Ad
+                        consectetur repellendus optio praesentium, eius tempora asperiores architecto repudiandae
+                        voluptate enim! Soluta aliquid ex quod illum, totam enim laudantium perferendis exercitationem
+                        animi vitae adipisci dicta alias, delectus sed harum quia! Laboriosam magnam aut ipsum ducimus,
+                        reprehenderit quidem assumenda, laudantium amet natus ullam culpa, cumque magni fugiat tempora
+                        quas ratione debitis! Molestiae obcaecati doloribus ipsam eum similique, nisi quas voluptatibus.
+                        Ex placeat similique est a.</p>
+                    <h5 class="ml-3">We Accept : <i class="fa fa-cc-paypal" aria-hidden="true"></i> <i
+                            class="fa fa-cc-mastercard" aria-hidden="true"></i> <i class="fa fa-credit-card"
+                            aria-hidden="true"></i></h5>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 pt-3" style="background-color: white;">
+                    <img src="img/street-view.jpg"
+                        class="img-about img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+            </div>
+            <!-- info -->
+            <div class="row text-center">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 py-4" style="background-color: white;">
+                    <h3><i class="fa fa-phone fa-2x color-logo" aria-hidden="true"></i> +0999999</h3>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 py-4" style="background-color: white;">
+                    <h3><i class="fa fa-map-marker fa-2x color-logo" aria-hidden="true"></i> Jl. Melulu Jadian Kagak
+                    </h3>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 py-4" style="background-color: white;">
+                    <h3><i class="fa fa-envelope fa-2x color-logo" aria-hidden="true"></i> mail.me@email.com</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 py-3" style="background-color: tomato;">
+                    <h3 class="color-info"><i class="fa fa-info-circle fa-1x" aria-hidden="true"></i> On demand, we can
+                        offer playstation,
+                        babycall, children care, dog equipment, etc.</h3>
+                </div>
+            </div>
+            <!-- our hotel -->
+            <div class="row">
+                <div class="col-sm-12 pt-3" style="background-color: white;">
+                    <h3 class="ml-3">Our Hotel</h3>
+                    <h6 class="ml-3">You can find our hotels anywhere in the world:</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 py-3" style="background-color: white;">
+
+                    <img src="img/london.jpg"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 py-2" style="background-color: white;">
+                    <div class="row">
+                        <div class="col-sm-6 py-2">
+                            <img src="img/borobudur.jpg"
+                                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <img src="img/paris.jpg"
+                                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 py-3">
+                            <img src="img/rio.jpg"
+                                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6 py-3">
+                            <img src="img/iceland.jpg"
+                                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- offer -->
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 py-5 offer">
+                    <h3 class="color-sub m-3">Get The Best Offer First!!</h3>
+                    <h6 class="color-sub m-3">Join Our Newsletter : </h6>
+                    <input type="text" name="" id="" class="form-control m-3" placeholder="E-Mail"
+                        aria-describedby="helpId">
+                    <button type="button" class="btn btn-danger button-dark m-3">Send Message</button>
+                </div>
+            </div>
+
+            <!-- contact -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 py-4" style="background-color: white;">
+                    <h3 id="contact" class="ml-3">Contact Us</h3>
+                    <h6 class="ml-3">If you have any questions, do not hesitate to ask them.</h6>
+                    <small class="ml-3"><i class="fa fa-phone fa-xs color-logo" aria-hidden="true"></i>
+                        +0999999</small><br>
+                    <small class="ml-3"><i class="fa fa-map-marker fa-xs color-logo" aria-hidden="true"></i> Jl.
+                        Melulu
+                        Jadian Kagak
+                    </small><br>
+                    <small class="ml-3"><i class="fa fa-envelope fa-xs color-logo" aria-hidden="true"></i>
+                        mail.me@email.com</small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="background-color: white;">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+
+                        <input type="text" name="" id="" class="form-control my-2" placeholder="Name"
+                            aria-describedby="helpId">
+                        <input type="text" name="" id="" class="form-control my-2" placeholder="E-Mail"
+                            aria-describedby="helpId">
+                        <input type="text" name="" id="" class="form-control my-2" placeholder="Message"
+                            aria-describedby="helpId">
+                        <button type="button" class="btn btn-dark button-dark my-2">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row text-center" style="background-color: black;">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 py-5">
+                <h3 class="color-sub m-3">Find Us On</h3>
+                <h3><i class="fa fa-facebook color-footer" aria-hidden="true"></i> <i
+                        class="fa fa-instagram color-footer" aria-hidden="true"></i>
+                    <i class="fa fa-snapchat color-footer" aria-hidden="true"></i> <i class="fa fa-twitter color-footer"
+                        aria-hidden="true"></i>
+                    <i class="fa fa-linkedin color-footer" aria-hidden="true"></i>
+                </h3>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
